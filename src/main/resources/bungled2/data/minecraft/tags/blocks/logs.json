@@ -1,0 +1,7 @@
+{
+  "replace" : false,
+  "values" : [
+    "#indepth:fountain_logs",
+    "#indepth:panther_logs"
+  ]
+}

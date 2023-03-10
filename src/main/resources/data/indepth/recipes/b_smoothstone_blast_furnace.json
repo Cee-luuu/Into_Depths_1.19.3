@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:polished_blackstone"
+    },
+    "result": "indepth:b_smoothstone",
+    "experience": 0,
+    "cookingtime": 100
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "indepth:granite_bricks"
+    }
+  },
+  "result": {
+    "item": "indepth:granite_tiles",
+    "count": 4
+  }
+}

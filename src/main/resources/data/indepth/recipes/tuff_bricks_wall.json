@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "indepth:tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "indepth:tuff_bricks_wall",
+    "count": 6
+  }
+}

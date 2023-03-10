@@ -1,0 +1,43 @@
+BendingTrunkPlacer(6, 3, 3, 4, new IntProvider() {
+                        @Override
+                        public int get(Random random) {
+                            return 0;
+                        }
+
+                        @Override
+                        public int getMin() {
+                            return 0;
+                        }
+
+                        @Override
+                        public int getMax() {
+                            return 0;
+                        }
+
+                        @Override
+                        public IntProviderType<?> getType() {
+                            return null;
+                        }
+                    }
+
+                                        new BendingTrunkPlacer(4, 7, 6, 7, new IntProvider() {
+                                            @Override
+                                            public int get(Random random) {
+                                                return 0;
+                                            }
+
+                                            @Override
+                                            public int getMin() {
+                                                return 0;
+                                            }
+
+                                            @Override
+                                            public int getMax() {
+                                                return 0;
+                                            }
+
+                                            @Override
+                                            public IntProviderType<?> getType() {
+                                                return null;
+                                            }
+                                        }

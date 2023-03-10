@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures" : {
+    "all" : "indepth:block/d_smoothstone_tiles"
+  }
+}

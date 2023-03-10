@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "panther_log",
+  "ingredients": [
+    {
+      "item": "indepth:panther_log"
+    }
+  ],
+  "result": {
+    "item": "indepth:panther_planks",
+    "count": 2
+  }
+}

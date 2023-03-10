@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "indepth:block/stripped_fountain_log",
+    "side": "indepth:block/stripped_fountain_log"
+  }
+}

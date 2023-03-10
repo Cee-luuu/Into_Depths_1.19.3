@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "indepth:block/morel",
+		"particle": "indepth:block/morel"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [10, 0, 10],
+			"to": [12, 2, 12],
+			"faces": {
+				"north": {"uv": [14, 2, 16, 4], "texture": "#1"},
+				"east": {"uv": [14, 1, 16, 3], "texture": "#1"},
+				"south": {"uv": [14, 2, 16, 4], "texture": "#1"},
+				"west": {"uv": [14, 1, 16, 3], "texture": "#1"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#1"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruitbody",
+			"from": [9, 2, 9],
+			"to": [13, 8, 13],
+			"faces": {
+				"north": {"uv": [0, 10, 4, 16], "texture": "#1"},
+				"east": {"uv": [0, 2, 4, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 6], "texture": "#1"},
+				"west": {"uv": [8, 1, 12, 7], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruitbody",
+			"from": [2, 3, 8],
+			"to": [6, 9, 12],
+			"faces": {
+				"north": {"uv": [0, 2, 4, 8], "texture": "#1"},
+				"east": {"uv": [0, 10, 4, 16], "texture": "#1"},
+				"south": {"uv": [4, 2, 8, 8], "texture": "#1"},
+				"west": {"uv": [8, 1, 12, 7], "texture": "#1"},
+				"up": {"uv": [4, 8, 8, 12], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "fruitbody",
+			"from": [6, 3, 2],
+			"to": [10, 11, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#1"},
+				"east": {"uv": [4, 0, 8, 8], "texture": "#1"},
+				"south": {"uv": [0, 8, 4, 16], "texture": "#1"},
+				"west": {"uv": [8, 0, 12, 8], "texture": "#1"},
+				"up": {"uv": [8, 12, 4, 8], "texture": "#1"},
+				"down": {"uv": [12, 8, 8, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [7, 0, 3],
+			"to": [9, 3, 5],
+			"faces": {
+				"north": {"uv": [12, 1, 14, 4], "texture": "#1"},
+				"east": {"uv": [14, 1, 16, 4], "texture": "#1"},
+				"south": {"uv": [14, 1, 16, 4], "texture": "#1"},
+				"west": {"uv": [12, 1, 14, 4], "texture": "#1"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#1"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Stem",
+			"from": [3, 0, 9],
+			"to": [5, 3, 11],
+			"faces": {
+				"north": {"uv": [12, 1, 14, 4], "texture": "#1"},
+				"east": {"uv": [12, 1, 14, 4], "texture": "#1"},
+				"south": {"uv": [14, 1, 16, 4], "texture": "#1"},
+				"west": {"uv": [12, 1, 14, 4], "texture": "#1"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#1"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#1"}
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "SS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "indepth:bloodstone_tiles"
+    }
+  },
+  "result": {
+    "item": "indepth:bloodstone_tiles_stairs",
+    "count": 4
+  }
+}

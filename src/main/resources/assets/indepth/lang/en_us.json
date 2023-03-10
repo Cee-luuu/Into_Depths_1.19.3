@@ -1,0 +1,153 @@
+{
+
+  "itemgroup.iditems" : "Into Depths Items",
+
+  "item.indepth.truffle_chunk": "Truffle chunk",
+  "block.indepth.morel": "Morel Mushroom",
+  "block.indepth.morel_flower": "Morel Mushroom",
+
+
+  "block.indepth.bloodstone": "Bloodstone",
+  "block.indepth.bloodstone_stairs": "Bloodstone Stairs",
+  "block.indepth.bloodstone_slab": "Bloodstone Slab",
+  "block.indepth.bloodstone_button": "Bloodstone button",
+  "block.indepth.bloodstone_pressure_plate": "Bloodstone Pressure Plate",
+  "block.indepth.bloodstone_wall": "Bloodstone Wall",
+
+  "block.indepth.bloodstone_fence": "Bloodstone fine art wall",
+  "block.indepth.bloodstone_fence_gate": "Bloodstone fine art gate",
+
+  "block.indepth.copper_door": "Copper Door",
+  "block.indepth.copper_trapdoor": "Copper Trapdoor",
+
+
+  "block.indepth.bloodstone_polished": "Polished Bloodstone",
+  "block.indepth.bloodstone_polished_stairs": "Polished Bloodstone Stairs",
+  "block.indepth.bloodstone_polished_slab": "Polished Bloodstone Slab",
+  "block.indepth.bloodstone_polished_wall": "Polished Bloodstone Wall",
+
+  "block.indepth.magma_bricks": "Magma Bricks",
+  "block.indepth.magma_blackstone": "Magma Blackstone",
+
+
+  "block.indepth.bloodstone_bricks": "Bloodstone Bricks",
+  "block.indepth.bloodstone_tiles": "Bloodstone Tiles",
+  "block.indepth.bloodstone_tiles_stairs": "Bloodstone Tile Stairs",
+  "block.indepth.bloodstone_tiles_slab": "Bloodstone Tile Slab",
+  "block.indepth.bloodstone_tiles_wall": "Bloodstone Tile Wall",
+
+
+  "block.indepth.cut_cobble": "Cut Cobble",
+  "block.indepth.m_cut_cobble": "Mossy Cut Cobble",
+
+  "block.indepth.b_smoothstone": "Black Smoothstone",
+
+  "block.indepth.d_smoothstone": "Smoothslate",
+  "block.indepth.d_smoothstone_tiles": "Smoothslate Tiles",
+
+
+
+  "block.indepth.stone_tiles": "Stone Tiles",
+  "block.indepth.stone_tiles_stairs": "Stone Tile Stairs",
+  "block.indepth.stone_tiles_slab": "Stone Tile Slab",
+
+
+  "block.indepth.granite_tiles": "Granite Tiles",
+  "block.indepth.granite_tiles_stairs": "Granite Tile Stairs",
+  "block.indepth.granite_tiles_slab": "Granite Tile Slab",
+  "block.indepth.granite_bricks": "Granite Bricks",
+
+  "item.indepth.clippers" : "Clippers",
+  "item.indepth.copper_helmet" : "Copper Helmet",
+  "item.indepth.copper_chestplate" : "Copper Chestplate",
+  "item.indepth.copper_leggings" : "Copper Leggings",
+  "item.indepth.copper_boots" : "Copper Boots",
+  "item.indepth.copper_staff" : "Copper Staff",
+
+
+
+  "item.indepth.granite_axe" : "Granite Axe",
+  "item.indepth.granite_pickaxe" : "Granite Pickaxe",
+  "item.indepth.granite_hoe" : "Granite Hoe",
+  "item.indepth.granite_shovel" : "Granite Shovel",
+  "item.indepth.granite_sword" : "Granite Sword",
+
+  "item.indepth.nickel_helmet" : "Nickel Helmet",
+  "item.indepth.nickel_chestplate" : "Nickel Chestplate",
+  "item.indepth.nickel_leggings" : "Nickel Leggings",
+  "item.indepth.nickel_boots" : "Nickel boots",
+  "item.indepth.nickel_ingot" : "Nickel Ingot",
+  "item.indepth.nickel_ore" : "Nickel Ore",
+
+
+
+
+  "block.indepth.speedyblock": "Sugar cubes",
+
+  "item.indepth.dowsing.tooltip.shift" : "suxnberyisexbu!!!!!!.",
+  "item.indepth.dowsing.tooltip" : "hrgghudugele!",
+  "tooltip.indepth.speedyblock" : "makes you fast!",
+
+
+
+  "block.indepth.diorite_tiles": "Diorite Tiles",
+  "block.indepth.diorite_tiles_stairs": "Diorite Tile Stairs",
+  "block.indepth.diorite_tiles_slab": "Diorite Tile Slab",
+  "block.indepth.diorite_bricks": "Diorite Bricks",
+
+  "block.indepth.tuff_bricks": "Tuff Bricks",
+  "block.indepth.tuff_bricks_stairs": "Tuff brick Stairs",
+  "block.indepth.tuff_bricks_slab": "Tuff brick Slab",
+  "block.indepth.tuff_stairs": "Tuff Stairs",
+  "block.indepth.tuff_slab": "Tuff Slab",
+  "block.indepth.tuff_wall": "Tuff Wall",
+  "block.indepth.tuff_bricks_wall": "Tuff Brick Wall",
+
+
+
+  "block.indepth.tuff_brick" : "Tuff Brick",
+
+  "block.indepth.brick_big" : "Brick Cube",
+  "block.indepth.brick_tiles" : "Brick tiles",
+
+  "block.indepth.fountain_log": "Fountain Leaf Log",
+  "block.indepth.fountain_wood": "Fountain Leaf Wood",
+  "block.indepth.stripped_fountain_log": "Stripped Fountain Leaf Log",
+  "block.indepth.stripped_fountain_wood": "Stripped Fountain Leaf Wood",
+  "block.indepth.fountain_planks":  "Fountain Leaf Planks",
+  "block.indepth.fountain_leaf":  "Fountain Leaf Leaf",
+  "block.indepth.fountain_lotus":  "Fountain Leaf Lotus",
+
+  "block.indepth.panther_log": "Panthercap Log",
+  "block.indepth.panther_cap": "Panthercap",
+  "block.indepth.panther_spore": "Panthercap Spore",
+  "block.indepth.panther_planks": "Enoki planks",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "item.indepth.arthroamulet": "Amulet d' Arthropoda",
+
+  "item.indepth.dowsing": "dowsing rod",
+
+  "itemGroup.indepth.indepth_items" : "Into indepth - Items",
+  "itemGroup.indepth.indepth_blocks" : "Into indepth - Blocks",
+
+  "item.indepth.dowsing_rod.no_valuables" : "cncbsuybfuygrnxaundelkfkgfkgfl... try again?"
+}

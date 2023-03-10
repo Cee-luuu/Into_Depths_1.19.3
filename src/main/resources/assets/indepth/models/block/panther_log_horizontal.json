@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "indepth:block/panther_cap",
+		"particle": "indepth:item/panther_spore"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 16, 11],
+			"faces": {
+				"north": {"uv": [4, 0, 1, 8], "texture": "#1"},
+				"east": {"uv": [0, 8, 3, 16], "texture": "#1"},
+				"south": {"uv": [3, 8, 0, 16], "texture": "#1"},
+				"west": {"uv": [1, 0, 4, 8], "texture": "#1"},
+				"up": {"uv": [7, 3, 4, 0], "texture": "#1"},
+				"down": {"uv": [7, 0, 4, 3], "texture": "#1"}
+			}
+		}
+	]
+}

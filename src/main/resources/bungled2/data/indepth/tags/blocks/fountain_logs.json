@@ -1,0 +1,11 @@
+{
+  "replace" : false,
+  "values" : [
+    "indepth:fountain_log",
+    "indepth:fountain_wood",
+    "indepth:stripped_fountain_log",
+    "indepth:stripped_fountain_wood"
+
+
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "indepth:bloodstone"
+    }
+  },
+  "result": {
+    "item": "indepth:bloodstone_wall",
+    "count": 6
+  }
+}

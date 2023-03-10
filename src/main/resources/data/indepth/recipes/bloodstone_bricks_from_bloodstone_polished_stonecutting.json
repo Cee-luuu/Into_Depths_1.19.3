@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "indepth:bloodstone_polished"
+  },
+  "result": "indepth:bloodstone_bricks",
+  "count": 1
+}

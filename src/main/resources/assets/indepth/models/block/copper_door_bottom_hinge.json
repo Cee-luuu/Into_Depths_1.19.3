@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "indepth:block/copper_door_top",
+    "bottom": "indepth:block/copper_door_bottom"
+  }
+}

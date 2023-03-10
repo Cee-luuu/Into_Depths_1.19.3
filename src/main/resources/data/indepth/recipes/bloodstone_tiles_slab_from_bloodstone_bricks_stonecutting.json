@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "indepth:bloodstone_bricks"
+  },
+  "result": "indepth:bloodstone_tiles_slab",
+  "count": 2
+}

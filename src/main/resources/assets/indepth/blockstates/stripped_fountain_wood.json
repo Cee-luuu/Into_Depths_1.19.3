@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "indepth:block/stripped_fountain_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "indepth:block/stripped_fountain_wood"
+    },
+    "axis=z": {
+      "model": "indepth:block/stripped_fountain_wood",
+      "x": 90
+    }
+  }
+}

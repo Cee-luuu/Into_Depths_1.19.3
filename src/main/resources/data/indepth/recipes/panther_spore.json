@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "panther_spore",
+  "ingredients": [
+    {
+      "item": "indepth:panther_cap"
+    }
+  ],
+  "result": {
+    "item": "indepth:panther_spore",
+    "count": 2
+  }
+}

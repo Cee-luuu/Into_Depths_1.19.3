@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false": {"model": "indepth:block/mythril_lamp_off"},
+    "clicked=true": {"model": "indepth:block/mythril_lamp_off"}
+  }
+}

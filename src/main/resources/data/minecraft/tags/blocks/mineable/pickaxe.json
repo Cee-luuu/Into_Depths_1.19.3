@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "indepth:d_smoothstone",
+    "indepth:stone_tiles",
+
+    "indepth:tuff_bricks",
+    "indepth:tuff_bricks_stairs",
+    "indepth:tuff_bricks_slab",
+    "indepth:tuff_stairs",
+    "indepth:tuff_slab",
+
+
+    "indepth:cut_cobble",
+    "indepth:m_cut_cobble"
+
+  ]
+}

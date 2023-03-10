@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "indepth:block/bloodstone_slab"
+    },
+    "type=double": {
+      "model": "indepth:block/bloodstone"
+    },
+    "type=top": {
+      "model": "indepth:block/bloodstone_slab_top"
+    }
+  }
+}

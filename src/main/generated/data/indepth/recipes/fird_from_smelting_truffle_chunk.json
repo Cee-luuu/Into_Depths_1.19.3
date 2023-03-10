@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1,
+  "experience": 90.0,
+  "group": "testing",
+  "ingredient": {
+    "item": "indepth:truffle_chunk"
+  },
+  "result": "indepth:fird"
+}
