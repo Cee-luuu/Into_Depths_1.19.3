@@ -70,19 +70,14 @@ public class PantherTrunk extends PillarBlock implements RotationAxis {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        switch (state.get(AXIS)) {
-            default: {
-                return X_SHAPE;
-            }
-            case Z: {
-                return Z_SHAPE;
-            }
-            case Y: {
-                return Y_SHAPE;
-            }
-        }
-
+        Direction.Axis i = state.get(AXIS);
+        return switch (i) {
+            case X -> X_SHAPE;
+            case Z -> Z_SHAPE;
+            case Y -> Y_SHAPE;
+        };
     }
+
 
     @Override
     public Quaternionf rotation(float rad) {

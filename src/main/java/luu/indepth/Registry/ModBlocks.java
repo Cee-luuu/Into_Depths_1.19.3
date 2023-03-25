@@ -338,6 +338,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.WOOD)
                     .requiresTool()
             ), ModItemGroup.IDITEMS);
+
     public static final Block PANTHER_CAP = registerBlock("panther_cap",
             new Block(FabricBlockSettings
                     .copyOf(Blocks.WARPED_WART_BLOCK)
