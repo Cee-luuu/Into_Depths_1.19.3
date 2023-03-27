@@ -4,7 +4,7 @@
 	"textures": {
 		"2": "indepth:block/panther_cap",
 		"3": "indepth:block/panther_gills",
-		"particle": "item/panther_spore"
+		"particle": "indepth:item/panther_spore"
 	},
 	"elements": [
 		{
