@@ -1,13 +1,12 @@
-package luu.indepth.data;
+package luu.indepth.core.data;
 
-import luu.indepth.Registry.ModBlocks;
-import luu.indepth.Registry.ModItems;
+import luu.indepth.block.ModBlocks;
+import luu.indepth.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 

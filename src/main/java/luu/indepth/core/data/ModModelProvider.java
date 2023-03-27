@@ -1,8 +1,7 @@
-package luu.indepth.data;
+package luu.indepth.core.data;
 
-import luu.indepth.Indepth;
-import luu.indepth.Registry.ModBlocks;
-import luu.indepth.Registry.ModItems;
+import luu.indepth.block.ModBlocks;
+import luu.indepth.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
