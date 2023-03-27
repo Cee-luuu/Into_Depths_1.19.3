@@ -1,15 +1,5 @@
-package luu.indepth.util;
+package luu.indepth.utils;
 
-
-import luu.indepth.Indepth;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
-
-import javax.swing.text.html.HTML;
 
 public class ModTags {
 
