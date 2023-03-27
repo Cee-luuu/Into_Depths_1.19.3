@@ -4,7 +4,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,6 +19,7 @@ public class SpeedyBlock extends Block {
         super(settings);
 
     }
+
     @Override
     public ActionResult onUse (BlockState state, World world, BlockPos pos,
                                PlayerEntity player, Hand hand, BlockHitResult hit) {
@@ -40,9 +40,8 @@ public class SpeedyBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(!world.isClient()) {
-            if(entity instanceof LivingEntity) {
-                LivingEntity livingEntity = ((LivingEntity) entity);
-                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 5300));
+            if(entity instanceof LivingEntity livingEntity) {
+				livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 5300));
             }
         }
 
