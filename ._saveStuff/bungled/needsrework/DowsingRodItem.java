@@ -1,6 +1,6 @@
 package assets.indepth.bungled.needsrework;
 
-import luu.indepth.util.ModTags;
+import luu.indepth.utils.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;

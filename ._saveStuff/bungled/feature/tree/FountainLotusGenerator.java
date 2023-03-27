@@ -1,5 +1,5 @@
 package luu.indepth.world.feature.tree;
-/*
+
 import luu.indepth.world.feature.ModConfiguredFeatures;
 import net.minecraft.block.SaplingBlock;
 import net.minecraft.block.sapling.SaplingGenerator;
@@ -18,6 +18,3 @@ public class FountainLotusGenerator extends SaplingGenerator {
         return ModConfiguredFeatures.FOUNTAIN_TREE;
     }
 }
-
-
- */

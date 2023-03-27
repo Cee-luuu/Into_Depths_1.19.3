@@ -1,5 +1,5 @@
 package luu.indepth.world.feature.tree;
-/*
+
 import luu.indepth.world.feature.ModConfiguredFeatures;
 import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.util.registry.RegistryEntry;
@@ -15,6 +15,3 @@ public class PantherSporeGenerator extends SaplingGenerator {
         return ModConfiguredFeatures.PANTHER_TREE;
     }
 }
-
-
- */
