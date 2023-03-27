@@ -1,6 +1,5 @@
-package luu.indepth.item.custom;
+package luu.indepth.item.custom.weapons;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.RangedWeaponItem;
 import net.minecraft.item.Vanishable;

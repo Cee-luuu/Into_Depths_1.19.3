@@ -1,4 +1,4 @@
-package luu.indepth.item;
+package luu.indepth.item.custom.weapons;
 
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
