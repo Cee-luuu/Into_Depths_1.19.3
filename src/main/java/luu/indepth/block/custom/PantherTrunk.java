@@ -13,8 +13,7 @@ import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-
-public class PantherTrunk extends PillarBlock implements RotationAxis {
+public class PantherTrunk extends PillarBlock {
 
     protected static final VoxelShape Y_SHAPE = Block.createCuboidShape(5.0, 0.0, 5.0, 11.0, 16.0, 11.0);
     protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(5.0, 5.0, 0.0, 11.0, 11.0, 16.0);
