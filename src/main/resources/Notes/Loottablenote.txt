@@ -1,1 +1,6 @@
 /setblock ~ ~ ~ minecraft:barrel{LootTable:"indepth:chests/mine_shack"}
+
+TIP:
+ use
+  TODO
+ if you want set a marker for things are to do. ;)
