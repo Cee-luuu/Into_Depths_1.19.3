@@ -1,4 +1,4 @@
-package luu.indepth.item.custom;
+package luu.indepth.block.custom;
 
 import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.sound.SoundEvent;
