@@ -1,8 +1,6 @@
-package luu.indepth.item.custom;
+package luu.indepth.item.custom.armor;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Rarity;
 
 public class ArthroAmulet extends Item {
 
