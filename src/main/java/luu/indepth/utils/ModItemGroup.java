@@ -7,11 +7,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import static luu.indepth.Indepth.MOD_ID;
+
 public class ModItemGroup {
     public static ItemGroup IDITEMS;
 
     public static void registerItemGroups() {
-        IDITEMS = FabricItemGroup.builder(new Identifier(Indepth.MOD_ID, "iditems"))
+        IDITEMS = FabricItemGroup.builder(new Identifier(MOD_ID, "iditems"))
                 .displayName(Text.translatable("itemgroup.iditems"))
                 .icon(() -> new ItemStack(ModItems.TRUFFLE)).build();
     }
