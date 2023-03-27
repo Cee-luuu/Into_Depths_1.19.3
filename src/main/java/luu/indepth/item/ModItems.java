@@ -1,19 +1,24 @@
-package luu.indepth.Registry;
+package luu.indepth.item;
 
 import luu.indepth.Indepth;
-import luu.indepth.item.*;
-import luu.indepth.item.custom.ArthroAmulet;
-
-//import assets.indepth.bungled.needsrework.DowsingRodItem;
-
+import luu.indepth.item.custom.armor.ArthroAmulet;
+import luu.indepth.item.custom.tools.ModAxeItem;
+import luu.indepth.item.custom.tools.ModHoe;
+import luu.indepth.item.custom.tools.ModPickaxeItem;
+import luu.indepth.utils.ModFoodComponents;
+import luu.indepth.utils.ModItemGroup;
+import luu.indepth.utils.materials.ModArmorMaterials;
+import luu.indepth.utils.materials.ModToolMaterials;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.minecraft.registry.Registry;
+
+import static luu.indepth.Indepth.MOD_ID;
 
 public class ModItems {
 
@@ -50,8 +55,7 @@ public class ModItems {
    public static final Item GRANITE_HOE = registerItem("granite_hoe",
            new ModHoe(ModToolMaterials.GRANITE, 1, 2f, new FabricItemSettings().maxCount(1)));
 
-   //COPPER
-
+   /** COPPER */
     public static final Item CLIPPERS = registerItem("clippers",
             new ShearsItem(new FabricItemSettings().maxCount(1).maxDamage(238)));
 
@@ -67,12 +71,7 @@ public class ModItems {
     public static final Item COPPER_BOOTS = registerItem("copper_boots",
             new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1)));
 
-    public static final Item COPPER_STAFF = registerItem("copper_staff",
-            new Item(new FabricItemSettings().maxCount(1)));
-
-
-
-    //nickel
+   /** Nickel */
    public static final Item NICKEL_HELMET = registerItem("nickel_helmet",
            new ArmorItem(ModArmorMaterials.NICKEL, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1)));
 
@@ -86,29 +85,28 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.NICKEL, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1)));
 
 
-
+	public static final Item COPPER_STAFF_ITEM = registerItem("copper_staff",
+			new Item(new FabricItemSettings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {
 
         //v registers item we pass in
-        return Registry.register(Registries.ITEM, new Identifier(Indepth.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(MOD_ID, name), item);
     }
 
     public static void addItemsToItemGroup() {
 
-        addToItemGroup(ModItemGroup.IDITEMS, NICKEL_BOOTS);
-
+		addToItemGroup(ModItemGroup.IDITEMS, NICKEL_BOOTS);
     }
 
-
-    private static void addToItemGroup(ItemGroup group, Item item) {
+    public static void addToItemGroup(ItemGroup group, Item item) {
 
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
 
     }
     public static void RegisterModItems(){
-        Indepth.LOGGER.info("Registering mod items for " + Indepth.MOD_ID);
+        Indepth.LOGGER.info("Registering mod items for " + MOD_ID);
 
         addItemsToItemGroup();
     }
