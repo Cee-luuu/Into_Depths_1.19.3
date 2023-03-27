@@ -1,7 +1,6 @@
-package luu.indepth.item;
+package luu.indepth.utils;
 
-import luu.indepth.Indepth;
-import luu.indepth.Registry.ModItems;
+import luu.indepth.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

@@ -1,4 +1,4 @@
-package luu.indepth.item;
+package luu.indepth.utils;
 
 import net.minecraft.item.FoodComponent;
 
