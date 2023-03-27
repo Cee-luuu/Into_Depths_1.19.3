@@ -8,13 +8,10 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.BlockRotation;
-import net.minecraft.util.math.Direction;
-import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import org.joml.Quaternionf;
 
 
 public class PantherTrunk extends PillarBlock implements RotationAxis {
@@ -26,17 +23,13 @@ public class PantherTrunk extends PillarBlock implements RotationAxis {
 
     public static final EnumProperty<Direction.Axis> AXIS = Properties.AXIS;
 
-
     public PantherTrunk(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState(this.getDefaultState().with(AXIS, Direction.Axis.Y));
     }
 
-
     @Override
-    public BlockState rotate(BlockState state, BlockRotation rotation) {
-        return PantherTrunk.changeRotation(state, rotation);
-    }
+    public BlockState rotate(BlockState state, BlockRotation rotation) { return PantherTrunk.changeRotation(state, rotation); }
 
     public static BlockState changeRotation(BlockState state, BlockRotation rotation) {
         switch (rotation) {
@@ -78,9 +71,8 @@ public class PantherTrunk extends PillarBlock implements RotationAxis {
         };
     }
 
-
-    @Override
-    public Quaternionf rotation(float rad) {
-        return null;
-    }
+//    @Override
+//    public Quaternionf rotation(float rad) {
+//        return null;
+//    }
 }
