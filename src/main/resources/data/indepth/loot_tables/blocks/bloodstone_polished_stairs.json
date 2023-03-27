@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "depths:bloodstone_polished_stairs"
+          "name": "indepth:bloodstone_polished_stairs"
         }
       ],
       "conditions": [
