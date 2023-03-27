@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "indepth:d_smoothstone"
+          "name": "indepth:d_smooth_stone"
         }
       ],
       "conditions": [
