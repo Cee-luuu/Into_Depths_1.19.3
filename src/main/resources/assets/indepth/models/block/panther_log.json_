@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "indepth:block/panther_log_top",
+    "side": "indepth:block/panther_log"
+  }
+}
