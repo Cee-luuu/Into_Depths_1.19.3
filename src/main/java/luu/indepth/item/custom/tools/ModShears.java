@@ -1,4 +1,4 @@
-package luu.indepth.item;
+package luu.indepth.item.custom.tools;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.block.AbstractPlantStemBlock;

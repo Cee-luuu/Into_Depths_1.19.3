@@ -1,4 +1,4 @@
-package luu.indepth.item;
+package luu.indepth.item.custom.tools;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
