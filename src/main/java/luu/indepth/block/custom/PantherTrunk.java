@@ -1,4 +1,4 @@
-package luu.indepth.block;
+package luu.indepth.block.custom;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
