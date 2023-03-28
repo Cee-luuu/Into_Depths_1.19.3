@@ -190,12 +190,6 @@ public class ModBlocks extends ModBlocksRegister {
 			new WallBlock(FabricBlockSettings.of(Material.AGGREGATE).strength(1.5f, 6.0f)
 					.sounds(BlockSoundGroup.TUFF).requiresTool()),ModItemGroup.IDITEMS);
 
-	/** Misc */
-    public static final Block SPEEDYBLOCK = registerBlock("speedyblock",
-			new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(1982978.5f, 200f)
-					.sounds(BlockSoundGroup.ANVIL).requiresTool()), ModItemGroup.IDITEMS,
-			"tooltip.speedyblock.shift", "tooltip.speedyblock.ctrl", "tooltip.speedyblock.alt");
-
 	/** Panther */
     public static final Block PANTHER_LOG = registerBlock("panther_log",
 			new PantherTrunk(FabricBlockSettings.copyOf(Blocks.BIRCH_LOG).nonOpaque()
@@ -257,6 +251,7 @@ public class ModBlocks extends ModBlocksRegister {
 //			"tooltip.puff_ball.shift", "tooltip.puff_ball.ctrl");
 //
 
+	/** Misc */
     public static final Block MYTHRIL_LAMP = registerBlock("mythril_lamp",new MythrilLampBlock(FabricBlockSettings
 			.of(Material.REPAIR_STATION).strength(4.0f, 6.0f).sounds(BlockSoundGroup.ANVIL).requiresTool()
 			.luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 25 : 0)), ModItemGroup.IDITEMS);
