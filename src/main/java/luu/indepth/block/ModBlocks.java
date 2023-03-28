@@ -269,7 +269,15 @@ public class ModBlocks extends ModBlocksRegister {
 				public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
 					tooltip.add(Text.translatable("tooltip.mythril_lamp")); }}, ModItemGroup.IDITEMS,
 
-			"tooltip.mythril_lamp.shift", "tooltip.mythril_lamp.ctrl", "tooltip.mythril_lamp.alt");
+				, ModItemGroup.IDITEMS,
+
+			"tooltip.mythril_lamp.hl", "tooltip.mythril_lamp.shift",
+			"tooltip.mythril_lamp.ctrl", "tooltip.mythril_lamp.alt");
+
+	public static final Block SUGAR_CUBE = registerBlock("sugar_cube",
+			new Block(FabricBlockSettings.of(Material.METAL).strength(1.5f, 4.0f)
+					.sounds(BlockSoundGroup.GRAVEL)), ModItemGroup.IDITEMS,"tooltip.sugar_cube",
+			"tooltip.sugar_cube.shift", "tooltip.sugar_cube.ctrl", "tooltip.sugar_cube.alt");
 
 	public static final Block SPEEDYBLOCK = registerBlock("speedyblock",
 			new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(1982978.5f, 200f)

@@ -77,6 +77,8 @@
 	"block.indepth.morel": "Morel",
 	"block.indepth.morel_flower": "Morel",
 
+	"block.indepth.sugar_cube": "Sugar Cube",
+
 	"block.indepth.mythril_lamp": "Mythril Lamp",
 	"block.indepth.speedyblock": "Speedy Cube",
 
@@ -117,10 +119,15 @@
 	"tooltip.hold_ctrl": "Hold §bCtrl§r for more Tips",
 	"tooltip.hold_alt": "Hold §cAlt§r for awesome Tips",
 
-	"tooltip.mythril_lamp": "A very cool Illumination Block",
-	"tooltip.mythril_lamp.shift" : "Tooltip with §eShift§r",
-	"tooltip.mythril_lamp.ctrl" : "Tooltip with §bCtrl§r",
-	"tooltip.mythril_lamp.alt" : "Tooltip with §cAlt§r",
+	"tooltip.sugar_cube":        "The Sugar Cube contains 9 times Sugar.",
+	"tooltip.sugar_cube.shift":  "Dit you know it, that 1 liter of Cola can",
+	"tooltip.sugar_cube.ctrl":   "'contains' §c§lup to 30 pieces§r of Sugar Cubes?!",
+	"tooltip.sugar_cube.alt":    "(at 9 gram/100 ml | at 3 gram per piece)",
+
+	"tooltip.mythril_lamp": "",
+	"tooltip.mythril_lamp.shift" :  "Tooltip with §eShift§r",
+	"tooltip.mythril_lamp.ctrl" :   "Tooltip with §bCtrl§r",
+	"tooltip.mythril_lamp.alt" :    "Tooltip with §cAlt§r",
 
 	"tooltip.speedyblock.shift" : "Makes you a bit faster!"
 }
