@@ -82,25 +82,25 @@
 	"block.indepth.mythril_lamp": "Mythril Lamp",
 	"block.indepth.speedyblock": "Speedy Cube",
 
-	"item.indepth.clippers" : "Clippers",
-	"item.indepth.copper_helmet" : "Copper Helmet",
-	"item.indepth.copper_chestplate" : "Copper Chestplate",
-	"item.indepth.copper_leggings" : "Copper Leggings",
-	"item.indepth.copper_boots" : "Copper Boots",
-	"item.indepth.copper_staff" : "Copper Staff",
+	"item.indepth.clippers":          "Clippers",
+	"item.indepth.copper_helmet":     "Copper Helmet",
+	"item.indepth.copper_chestplate": "Copper Chestplate",
+	"item.indepth.copper_leggings":   "Copper Leggings",
+	"item.indepth.copper_boots":      "Copper Boots",
+	"item.indepth.copper_staff":      "Copper Staff",
 
-	"item.indepth.granite_axe" : "Granite Axe",
-	"item.indepth.granite_pickaxe" : "Granite Pickaxe",
-	"item.indepth.granite_hoe" : "Granite Hoe",
-	"item.indepth.granite_shovel" : "Granite Shovel",
-	"item.indepth.granite_sword" : "Granite Sword",
+	"item.indepth.granite_axe":     "Granite Axe",
+	"item.indepth.granite_pickaxe": "Granite Pickaxe",
+	"item.indepth.granite_hoe":     "Granite Hoe",
+	"item.indepth.granite_shovel":  "Granite Shovel",
+	"item.indepth.granite_sword":   "Granite Sword",
 
-	"item.indepth.nickel_helmet" : "Nickel Helmet",
-	"item.indepth.nickel_chestplate" : "Nickel Chestplate",
-	"item.indepth.nickel_leggings" : "Nickel Leggings",
-	"item.indepth.nickel_boots" : "Nickel boots",
-	"item.indepth.nickel_ingot" : "Nickel Ingot",
-	"item.indepth.nickel_ore" : "Nickel Ore",
+	"item.indepth.nickel_helmet":     "Nickel Helmet",
+	"item.indepth.nickel_chestplate": "Nickel Chestplate",
+	"item.indepth.nickel_leggings":   "Nickel Leggings",
+	"item.indepth.nickel_boots":      "Nickel boots",
+	"item.indepth.nickel_ingot":      "Nickel Ingot",
+	"item.indepth.nickel_ore":        "Nickel Ore",
 
   "item.indepth.arthroamulet": "Amulet d' Arthropoda",
 
@@ -112,8 +112,8 @@
 
 	"itemgroup.iditems" : "Into Depths Items",
 
-	"itemGroup.indepth.indepth_items" : "Into Indepth - Items",
-	"itemGroup.indepth.indepth_blocks" : "Into Indepth - Blocks",
+	"itemGroup.indepth.indepth_items" :   "Into Indepth - Items",
+	"itemGroup.indepth.indepth_blocks" :  "Into Indepth - Blocks",
 
 	"tooltip.hold_shift": "Hold §eShift§r for a Tip",
 	"tooltip.hold_ctrl": "Hold §bCtrl§r for more Tips",
@@ -129,5 +129,5 @@
 	"tooltip.mythril_lamp.ctrl" :   "Tooltip with §bCtrl§r",
 	"tooltip.mythril_lamp.alt" :    "Tooltip with §cAlt§r",
 
-	"tooltip.speedyblock.shift" : "Makes you a bit faster!"
+	"tooltip.speedyblock.shift" :   "Makes you a bit faster!"
 }
