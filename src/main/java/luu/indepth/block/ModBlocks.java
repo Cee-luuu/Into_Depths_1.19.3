@@ -6,7 +6,14 @@ import luu.indepth.utils.ModItemGroup;
 import luu.indepth.world.tree.ModSaplingGeneration;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.text.Text;
+import net.minecraft.world.BlockView;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 import static luu.indepth.Indepth.MOD_ID;
 
@@ -254,7 +261,20 @@ public class ModBlocks extends ModBlocksRegister {
 	/** Misc */
     public static final Block MYTHRIL_LAMP = registerBlock("mythril_lamp",new MythrilLampBlock(FabricBlockSettings
 			.of(Material.REPAIR_STATION).strength(4.0f, 6.0f).sounds(BlockSoundGroup.ANVIL).requiresTool()
-			.luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 25 : 0)), ModItemGroup.IDITEMS);
+			.luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 25 : 0)){
+
+				/** if you want/need a tooltip without keybindings you must add the "appendTooltip" method like this,
+					but you can't use it at the same time with the TooltipShift/Ctrl/Al functionality
+					because the tooltip/s with keybindings will override the 'simple' tooltip! */
+				@Override
+				public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+					tooltip.add(Text.translatable("tooltip.mythril_lamp")); }}, ModItemGroup.IDITEMS,
+
+			"tooltip.mythril_lamp.shift", "tooltip.mythril_lamp.ctrl", "tooltip.mythril_lamp.alt");
+
+	public static final Block SPEEDYBLOCK = registerBlock("speedyblock",
+			new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(1982978.5f, 200f)
+					.sounds(BlockSoundGroup.ANVIL).requiresTool()), ModItemGroup.IDITEMS, "tooltip.speedyblock.shift");
 
 	/** Block & Item Registering is out sourced to the "ModBlockRegister* class */
 
