@@ -74,10 +74,11 @@
 	"block.indepth.panther_cap": "Panther Cap",
   "block.indepth.panther_spore": "Panther Cap Spore",
 
-	"block.indepth.morel": "Morel Mushroom",
-	"block.indepth.morel_flower": "Morel Mushroom",
+	"block.indepth.morel": "Morel",
+	"block.indepth.morel_flower": "Morel",
 
-	"block.indepth.speedyblock": "Sugar Cubes",
+	"block.indepth.mythril_lamp": "Mythril Lamp",
+	"block.indepth.speedyblock": "Speedy Cube",
 
 	"item.indepth.clippers" : "Clippers",
 	"item.indepth.copper_helmet" : "Copper Helmet",
@@ -105,9 +106,6 @@
 
   "item.indepth.dowsing_rod.no_valuables" : "cncbsuybfuygrnxaundelkfkgfkgfl... try again?",
 
-	"item.indepth.dowsing.tooltip.shift" : "suxnberyisexbu!!!!!!.",
-	"item.indepth.dowsing.tooltip" : "hrgghudugele!",
-
 	"item.indepth.truffle_chunk": "Truffle Chunk",
 
 	"itemgroup.iditems" : "Into Depths Items",
@@ -115,5 +113,14 @@
 	"itemGroup.indepth.indepth_items" : "Into Indepth - Items",
 	"itemGroup.indepth.indepth_blocks" : "Into Indepth - Blocks",
 
-	"tooltip.indepth.speedyblock" : "Makes you a bit faster!"
+	"tooltip.hold_shift": "Hold §eShift§r for a Tip",
+	"tooltip.hold_ctrl": "Hold §bCtrl§r for more Tips",
+	"tooltip.hold_alt": "Hold §cAlt§r for awesome Tips",
+
+	"tooltip.mythril_lamp": "A very cool Illumination Block",
+	"tooltip.mythril_lamp.shift" : "Tooltip with §eShift§r",
+	"tooltip.mythril_lamp.ctrl" : "Tooltip with §bCtrl§r",
+	"tooltip.mythril_lamp.alt" : "Tooltip with §cAlt§r",
+
+	"tooltip.speedyblock.shift" : "Makes you a bit faster!"
 }
