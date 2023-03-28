@@ -1,6 +1,7 @@
 package luu.indepth.block;
 
 import luu.indepth.Indepth;
+import luu.indepth.utils.tooltips.ShowToolTips;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
@@ -21,12 +22,12 @@ import java.util.List;
 
 public class ModBlocksRegister {
 
-	/** Block-Register without Item */
+	/** Block-Register without Item and without Tooltip/s */
 	public static Block registerBlock(String name, Block block) {
 		return Registry.register(Registries.BLOCK, new Identifier(Indepth.MOD_ID, name), block);
 	}
 
-	/** Block-Register with Item */
+	/** Block-Register with Item but without tooltip/s */
 	public static Block registerBlock(String name, Block block, ItemGroup group) {
 		registerBlockItem(name, block, group);
 		return Registry.register(Registries.BLOCK, new Identifier(Indepth.MOD_ID, name), block);
@@ -38,24 +39,24 @@ public class ModBlocksRegister {
 		ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
 	}
 
-	/** BlockRegister with tooltip */
-	public static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
-		registerBlockItem(name, block, group, tooltipKey);
+	/** BlockRegister with Tooltip Shift */
+	public static Block registerBlock(String name, Block block, ItemGroup group, String tooltipShift) {
+		registerBlockItem(name, block, group, tooltipShift);
 		return Registry.register(Registries.BLOCK, new Identifier(Indepth.MOD_ID, name), block);
 	}
 
-	private static void registerBlockItem(String name, Block block, ItemGroup group, String tooltipKey){
+	private static void registerBlockItem(String name, Block block, ItemGroup group, String tooltipShift){
 		Item item = Registry.register(Registries.ITEM, new Identifier(Indepth.MOD_ID, name),
 				new BlockItem(block, new FabricItemSettings()) {
 					@Override
 					public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-						tooltip.add(Text.translatable(tooltipKey));
+						ShowToolTips.showTooltips(tooltip, tooltipShift);
 					}
 				});
 		ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
 	}
 
-	/** BlockRegister with tooltip Shift & Ctrl */
+	/** BlockRegister with Tooltip Shift & Ctrl */
 	public static Block registerBlock(String name, Block block, ItemGroup group, String tooltipShift, String tooltipCtrl) {
 		registerBlockItem(name, block, group, tooltipShift, tooltipCtrl);
 		return Registry.register(Registries.BLOCK, new Identifier(Indepth.MOD_ID, name), block);
@@ -67,19 +68,23 @@ public class ModBlocksRegister {
 					@Override
 					public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
 
-						if (!Screen.hasShiftDown()) { tooltip.add(Text.translatable("tooltip_hold_shift"));
+						if (!Screen.hasShiftDown()) { tooltip.add(Text.translatable("tooltip.hold_shift"));
 
 						} else { tooltip.add(Text.translatable(tooltipShift)); }
 
-						if (!Screen.hasControlDown()) { tooltip.add(Text.translatable("tooltip_hold_ctrl"));
+						if (!Screen.hasControlDown()) { tooltip.add(Text.translatable("tooltip.hold_ctrl"));
 
 						} else { tooltip.add(Text.translatable(tooltipCtrl)); }
+
+						/** to simplify this two *If Else* you can use the following (simple) line */
+
+						ShowToolTips.showTooltips(tooltip, tooltipShift, tooltipCtrl);
 					}
 				});
 		ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
 	}
 
-	/** BlockRegister with tooltip Shift , Ctrl & Alt */
+	/** BlockRegister with Tooltip Shift, Ctrl & Alt */
 	public static Block registerBlock(String name, Block block, ItemGroup group, String tooltipShift, String tooltipCtrl, String tooltipAlt) {
 		registerBlockItem(name, block, group, tooltipShift, tooltipCtrl, tooltipAlt);
 		return Registry.register(Registries.BLOCK, new Identifier(Indepth.MOD_ID, name), block);
@@ -91,19 +96,24 @@ public class ModBlocksRegister {
 					@Override
 					public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
 
-						if (!Screen.hasShiftDown()) { tooltip.add(Text.translatable("tooltip_hold_shift"));
+						if (!Screen.hasShiftDown()) { tooltip.add(Text.translatable("tooltip.hold_shift"));
 
 						} else { tooltip.add(Text.translatable(tooltipShift)); }
 
-						if (!Screen.hasControlDown()) { tooltip.add(Text.translatable("tooltip_hold_ctrl"));
+						if (!Screen.hasControlDown()) { tooltip.add(Text.translatable("tooltip.hold_ctrl"));
 
 						} else { tooltip.add(Text.translatable(tooltipCtrl)); }
 
-						if (!Screen.hasControlDown()) { tooltip.add(Text.translatable("tooltip_hold_alt"));
+						if (!Screen.hasAltDown()) { tooltip.add(Text.translatable("tooltip.hold_alt"));
 
 						} else { tooltip.add(Text.translatable(tooltipAlt)); }
+
+						/** to simplify this three *If Else* you can use the following (simple) line */
+
+						ShowToolTips.showTooltips(tooltip, tooltipShift, tooltipCtrl, tooltipAlt);
 					}
 				});
+
 		ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
 	}
 }
