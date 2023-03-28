@@ -11,7 +11,6 @@ public class ModBlockRenderer {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOUNTAIN_LEAFE, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOUNTAIN_LOTUS, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PANTHER_CAP, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SNOW_CAMPFIRE, RenderLayer.getCutout());
 
 //        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COPPER_TRAPDOOR, RenderLayer.getCutout());
 	}
