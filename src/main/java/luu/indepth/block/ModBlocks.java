@@ -252,11 +252,10 @@ public class ModBlocks extends ModBlocksRegister {
 //
 //    public static final Block COPPER_TRAPDOOR = registerBlock("copper_trapdoor",new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL)
 //    		.strength(4.0f, 10.0f).sounds(BlockSoundGroup.COPPER).requiresTool().nonOpaque()), ModItemGroup.IDITEMS);
-
+//
 //    public static final Block PUFFBALL = registerBlock("puffball", new Puffball(FabricBlockSettings.of(Material.UNDERWATER_PLANT)
 //            .strength(0.0f, 0.0f).sounds(BlockSoundGroup.FUNGUS)), ModItemGroup.IDITEMS,
 //			"tooltip.puff_ball.shift", "tooltip.puff_ball.ctrl");
-//
 
 	/** Misc */
     public static final Block MYTHRIL_LAMP = registerBlock("mythril_lamp",new MythrilLampBlock(FabricBlockSettings
