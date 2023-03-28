@@ -115,9 +115,10 @@
 	"itemGroup.indepth.indepth_items" :   "Into Indepth - Items",
 	"itemGroup.indepth.indepth_blocks" :  "Into Indepth - Blocks",
 
+	"tooltip.separator":  "",
 	"tooltip.hold_shift": "Hold §eShift§r for a Tip",
-	"tooltip.hold_ctrl": "Hold §bCtrl§r for more Tips",
-	"tooltip.hold_alt": "Hold §cAlt§r for awesome Tips",
+	"tooltip.hold_ctrl":  "Hold §bCtrl§r for more Tips",
+	"tooltip.hold_alt":   "Hold §cAlt§r for awesome Tips",
 
 	"tooltip.sugar_cube":        "The Sugar Cube contains 9 times Sugar.",
 	"tooltip.sugar_cube.shift":  "Dit you know it, that 1 liter of Cola can",

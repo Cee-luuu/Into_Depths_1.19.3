@@ -255,19 +255,27 @@ public class ModBlocks extends ModBlocksRegister {
 //
 //    public static final Block PUFFBALL = registerBlock("puffball", new Puffball(FabricBlockSettings.of(Material.UNDERWATER_PLANT)
 //            .strength(0.0f, 0.0f).sounds(BlockSoundGroup.FUNGUS)), ModItemGroup.IDITEMS,
-//			"tooltip.puff_ball.shift", "tooltip.puff_ball.ctrl");
+//			"", "tooltip.puff_ball.shift", "tooltip.puff_ball.ctrl");
 
 	/** Misc */
     public static final Block MYTHRIL_LAMP = registerBlock("mythril_lamp",new MythrilLampBlock(FabricBlockSettings
 			.of(Material.REPAIR_STATION).strength(4.0f, 6.0f).sounds(BlockSoundGroup.ANVIL).requiresTool()
-			.luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 25 : 0)){
+			.luminance((state) -> state.get(MythrilLampBlock.CLICKED) ? 25 : 0))
 
 				/** if you want/need a tooltip without keybindings you must add the "appendTooltip" method like this,
 					but you can't use it at the same time with the TooltipShift/Ctrl/Al functionality
 					because the tooltip/s with keybindings will override the 'simple' tooltip! */
-				@Override
+				{@Override
 				public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
-					tooltip.add(Text.translatable("tooltip.mythril_lamp")); }}, ModItemGroup.IDITEMS,
+					tooltip.add(Text.translatable("tooltip.mythril_lamp")); }}
+
+				/** but, anonymous classes/methods are no longer needed,
+				 *  because I've added an extra tooltip key called 'tooltipHeadline'
+				 *  If you want to use a tooltip without keybinding use the following
+				 *  If you want to use a tooltip with keybinding put an
+				 *  empty headline tooltip at the first followed by the tooltip/s
+				 *  with/for Shift ( Ctrl & Alt). For an example take a look to the
+				 *  SPEEDYBLOCK */
 
 				, ModItemGroup.IDITEMS,
 
@@ -281,7 +289,8 @@ public class ModBlocks extends ModBlocksRegister {
 
 	public static final Block SPEEDYBLOCK = registerBlock("speedyblock",
 			new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(1982978.5f, 200f)
-					.sounds(BlockSoundGroup.ANVIL).requiresTool()), ModItemGroup.IDITEMS, "tooltip.speedyblock.shift");
+					.sounds(BlockSoundGroup.ANVIL).requiresTool()), ModItemGroup.IDITEMS,
+			"", "tooltip.speedyblock.shift");
 
 	/** Block & Item Registering is out sourced to the "ModBlockRegister* class */
 
