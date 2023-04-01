@@ -9,6 +9,7 @@ public class Puffball extends Block {
     public Puffball(Settings settings) {
         super(settings);
     }
+
     public void onBroken(WorldAccess world, BlockPos pos, BlockState state) {
 
     }

@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "indepth:item/copper_staff",
-		"particle": "block/staff"
+		"particle": "indepth:item/copper_staff"
 	},
 	"elements": [
 		{

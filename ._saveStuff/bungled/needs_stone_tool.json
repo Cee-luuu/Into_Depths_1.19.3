@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "indepth:bloodstone",
+    "indepth:bloodstone_stairs",
+    "indepth:bloodstone_slab",
+    "indepth:bloodstone_wall",
+    "indepth:bloodstone_polished",
+    "indepth:bloodstone_polished_stairs",
+    "indepth:bloodstone_polished_slab",
+    "indepth:bloodstone_bricks",
+    "indepth:bloodstone_tiles",
+    "indepth:bloodstone_tiles_stairs",
+    "indepth:bloodstone_tiles_slab",
+
+    "indepth:granite_bricks",
+    "indepth:granite_tiles",
+    "indepth:granite_tiles_stairs",
+    "indepth:granite_tiles_slab",
+
+    "indepth:diorite_bricks",
+    "indepth:diorite_tiles",
+    "indepth:diorite_tiles_stairs",
+    "indepth:diorite_tiles_slab",
+
+    "indepth:tuff_bricks",
+    "indepth:tuff_bricks_stairs",
+    "indepth:tuff_bricks_slab",
+    "indepth:tuff_stairs",
+    "indepth:tuff_slab",
+
+    "indepth:brick_big",
+    "indepth:brick_tiles",
+
+    "indepth:cut_cobble",
+    "indepth:stone_tiles",
+    "indepth:m_cut_cobble"
+  ]
+}
