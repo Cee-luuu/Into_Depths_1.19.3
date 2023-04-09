@@ -1,14 +1,14 @@
 package luu.indepth;
 
-import luu.indepth.data.ModLootTableGenerator;
-import luu.indepth.data.ModModelProvider;
-import luu.indepth.data.ModRecipeGenerator;
-import luu.indepth.data.ModWorldGenerator;
-import luu.indepth.world.ModConfiguredFeatures;
+import luu.indepth.core.data.*;
+import luu.indepth.world.features.ModConfiguredFeatures;
+import luu.indepth.world.features.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
+
+import static luu.indepth.core.data.ModVegetationGenerators.vegetationGenerators;
 
 public class IndepthDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,16 +16,17 @@ public class IndepthDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModLootTableGenerator::new);
-		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModWorldGenerator::new);
 
-		}
+		vegetationGenerators();
+	}
 
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
-	}
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 
 	}
-
+}

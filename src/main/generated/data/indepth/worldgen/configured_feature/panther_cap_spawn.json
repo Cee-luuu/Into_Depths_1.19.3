@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "indepth:fountain_lotus_placed",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "indepth:fountain_lotus_placed"
+      }
+    ]
+  }
+}

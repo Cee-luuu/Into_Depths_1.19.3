@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"indepth:bloodstone_wall",
+		"indepth:bloodstone_polished_wall",
+		"indepth:bloodstone_tiles_wall",
+		"indepth:tuff_wall",
+		"indepth:tuff_bricks_wall"
+	]
+}

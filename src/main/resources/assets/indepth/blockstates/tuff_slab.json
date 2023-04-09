@@ -4,7 +4,7 @@
       "model": "indepth:block/tuff_slab"
     },
     "type=double": {
-      "model": "indepth:block/tuff"
+      "model": "minecraft:block/tuff"
     },
     "type=top": {
       "model": "indepth:block/tuff_slab_top"

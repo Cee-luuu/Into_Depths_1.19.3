@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "depths:panther_cap"
+          "name": "indepth:panther_cap"
         }
       ],
       "conditions": [
